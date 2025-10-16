@@ -6,7 +6,7 @@
     --matrix-bg: #8f5f5f;
     --matrix-bg-light: #1a1a1a;
     --text-primary: #00ff41;
-    --text-secondary: #000000;
+    --text-secondary: #ffffff;
     --text-muted: #888888;
     --accent: #ff0040;
     --border-color: #00ff4133;
@@ -85,4 +85,5 @@ body {
     position: relative;
     overflow: hidden;
 }
+
 
