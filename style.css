@@ -30,7 +30,7 @@ body {
     /* Эффект сканлиний как у старого монитора */
     background-image: 
        
-        url('https://yandex-images.clstorage.net/uhs5W2155/53ce78dh/6z6Ak_gxsxLaJ5eOmdAnIXzykenje1KiVfDbbiWUBi1PFQOlJw5SVrb33qMUbcsCkQpm6rZeLaesnHAmDVQXQE4a5dfdJeb2qifGyil05oG988UoN0oGg8Wwrv7lgqX_CAIFYvR5gEFBg2vWYS3_phVesClXeHhW3YuHUM00A0dar_Ax-3KAh6m2VOjL4OaxbGNniIB6NDPS0qi5IBIU3YiRZcDVGpLSsgGrleH9XJA0T8O6Iyp6FC3ZlJOuB4Lme6-xEFhQEjaq1RRbKUEVMbwRtBnR-VZBkRMJyqIxN11ZgabRFTuAUZNCyMTRPd1xpD3Q2DG7m4X96EQBrZfgxrpckyL6oKEkyldk2qkAd5KvIHe6MCjEQ7BR6HhwAcS-iWJX8TYKYWFCc7lHAi-cwdSO8zqwSmnGLhmlsS3msdf5byDwGoAhtuq0ppjJ4UaCHSGkKXGo5oDRQtlLYtMlTykSN5OGyZCT8SNpJLDNbNPFDMLbAGs7Vpw5FNG8l-Mn281goMlQ8YbIZ-UYKGMV4X7TxmvTmuYj03BYWJMTNL97Q0fwJmixAlAwWuSRv_0Ql-_DKbG4qLWfqCWADaaBR9mNkuGKEwK2WYW3GskxdUEuAJdL8Qh286Jye0kBozd_uDBmEiR50IOy88nmk-ztIfZsgNhiCbhn7psWM10k4tQKHbIS6MLDNLq1V4i7A5cxroHnubOotQCjIrt4oqJFXktQZ5FFiSJQ8cDaRSP8_IPGDdJ6UHpYVP-LhYO8FUKkuU0jwjow0Ud5hIaZOOLE843jhjmDerdx4XDZ2FBDxBw5Q4ZDRDozoUGyi5TSLR7RVD6CurGZuGWf-aVDv8aytpgOQuIoclBkieVUyhnCpNH_0rapIYt0wUORGDuh8XTeSzIE4xTIkOJzMGjWASyO0DT8sEoAacpnbPpEkmwGkJaYP7GhO7LiZSgnpIsIE3dTDhCUWSJZZOBjInh5QCA2E');
+        url('https://avatars.mds.yandex.net/i?id=0c1a7831ccf96d61343733d754012df0_l-12143639-images-thumbs&n=13');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,5 +85,6 @@ body {
     position: relative;
     overflow: hidden;
 }
+
 
 
