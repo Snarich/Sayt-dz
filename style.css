@@ -9,7 +9,7 @@
     --text-secondary: #97a0ff;
     --text-muted: #888888;
     --accent: #ff0040;
-    --border-color: #00ff4133;
+    --border-color: #fff20033;
 }
 
 /* Сброс стандартных стилей */
@@ -111,6 +111,7 @@ body {
     color: var(--matrix-bg);
     transform: scale(1.05);
     box-shadow: 0 0 20px var(--matrix-green);
+
 
 
 
