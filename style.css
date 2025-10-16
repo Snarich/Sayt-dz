@@ -1,7 +1,7 @@
 /* === ПЕРЕМЕННЫЕ И БАЗОВЫЕ НАСТРОЙКИ === */
 :root {
     /* Цветовая схема в стиле Матрицы */
-    --matrix-green: #00ff41;
+    --matrix-green: #FFFF00;
     --matrix-dark-green: #008f11;
     --matrix-bg: #8f5f5f;
     --matrix-bg-light: #1a1a1a;
@@ -111,6 +111,7 @@ body {
     color: var(--matrix-bg);
     transform: scale(1.05);
     box-shadow: 0 0 20px var(--matrix-green);
+
 
 
 
