@@ -72,7 +72,7 @@ body {
 .movie-header {
     text-align: center;
     padding: 40px 0;
-    background: url(' https://avatars.mds.yandex.net/i?id=2a0000017a06882d9b57a31a471291a377f6-4357983-images-thumbs&n=13' );
+    background: url(' https://avatars.mds.yandex.net/i?id=2a0000017a06882d9b57a31a471291a377f6-4357983-images-thumbs&n=13'width="1128" lenght="250"   );
     background-size: cover;
     position: relative;
     background-position: center;
@@ -111,6 +111,7 @@ body {
     color: var(--matrix-bg);
     transform: scale(1.05);
     box-shadow: 0 0 20px var(--matrix-green);
+
 
 
 
