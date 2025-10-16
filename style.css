@@ -1,0 +1,87 @@
+/* === ПЕРЕМЕННЫЕ И БАЗОВЫЕ НАСТРОЙКИ === */
+:root {
+    /* Цветовая схема в стиле Матрицы */
+    --matrix-green: #00ff41;
+    --matrix-dark-green: #008f11;
+    --matrix-bg: #8f5f5f;
+    --matrix-bg-light: #1a1a1a;
+    --text-primary: #00ff41;
+    --text-secondary: #000000;
+    --text-muted: #888888;
+    --accent: #ff0040;
+    --border-color: #00ff4133;
+}
+
+/* Сброс стандартных стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основные стили body */
+body {
+       font-family: 'Courier New', monospace;
+    background-color: var(--matrix-bg);
+    color: var(--text-secondary);
+    line-height: 1.6;
+    min-height: 100vh;
+    
+    /* Эффект сканлиний как у старого монитора */
+    background-image: 
+       
+        url('https://yandex-images.clstorage.net/uhs5W2155/53ce78dh/6z6Ak_gxsxLaJ5eOmdAnIXzykenje1KiVfDbbiWUBi1PFQOlJw5SVrb33qMUbcsCkQpm6rZeLaesnHAmDVQXQE4a5dfdJeb2qifGyil05oG988UoN0oGg8Wwrv7lgqX_CAIFYvR5gEFBg2vWYS3_phVesClXeHhW3YuHUM00A0dar_Ax-3KAh6m2VOjL4OaxbGNniIB6NDPS0qi5IBIU3YiRZcDVGpLSsgGrleH9XJA0T8O6Iyp6FC3ZlJOuB4Lme6-xEFhQEjaq1RRbKUEVMbwRtBnR-VZBkRMJyqIxN11ZgabRFTuAUZNCyMTRPd1xpD3Q2DG7m4X96EQBrZfgxrpckyL6oKEkyldk2qkAd5KvIHe6MCjEQ7BR6HhwAcS-iWJX8TYKYWFCc7lHAi-cwdSO8zqwSmnGLhmlsS3msdf5byDwGoAhtuq0ppjJ4UaCHSGkKXGo5oDRQtlLYtMlTykSN5OGyZCT8SNpJLDNbNPFDMLbAGs7Vpw5FNG8l-Mn281goMlQ8YbIZ-UYKGMV4X7TxmvTmuYj03BYWJMTNL97Q0fwJmixAlAwWuSRv_0Ql-_DKbG4qLWfqCWADaaBR9mNkuGKEwK2WYW3GskxdUEuAJdL8Qh286Jye0kBozd_uDBmEiR50IOy88nmk-ztIfZsgNhiCbhn7psWM10k4tQKHbIS6MLDNLq1V4i7A5cxroHnubOotQCjIrt4oqJFXktQZ5FFiSJQ8cDaRSP8_IPGDdJ6UHpYVP-LhYO8FUKkuU0jwjow0Ud5hIaZOOLE843jhjmDerdx4XDZ2FBDxBw5Q4ZDRDozoUGyi5TSLR7RVD6CurGZuGWf-aVDv8aytpgOQuIoclBkieVUyhnCpNH_0rapIYt0wUORGDuh8XTeSzIE4xTIkOJzMGjWASyO0DT8sEoAacpnbPpEkmwGkJaYP7GhO7LiZSgnpIsIE3dTDhCUWSJZZOBjInh5QCA2E');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Фон фиксируется при скролле */
+    
+    /* Убраны лишние свойства */
+    display: block;
+    margin: 0;
+}
+
+
+
+/* Контейнер */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: ('https://i.pinimg.com/736x/8a/be/66/8abe668b5570a6b67f5d39b5f2e963f6.jpg')
+}
+
+/* Эффект свечения для текста */
+@keyframes glow {
+    0%, 100% {
+        text-shadow: 
+            0 0 5px var(--matrix-green),
+            0 0 10px var(--matrix-green),
+            0 0 15px var(--matrix-dark-green);
+    }
+    50% {
+        text-shadow: 
+            0 0 10px var(--matrix-green),
+            0 0 20px var(--matrix-green),
+            0 0 30px var(--matrix-dark-green);
+    }
+}
+
+
+/* === ШАПКА САЙТА === */
+.movie-header {
+    text-align: center;
+    padding: 40px 0;
+    background: url(' https://i.pinimg.com/736x/8a/be/66/8abe668b5570a6b67f5d39b5f2e963f6.jpg' );
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
