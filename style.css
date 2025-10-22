@@ -63,6 +63,16 @@ body {
     animation: blink 1s infinite;
 }
 
+.text-block {
+  background-color: #f0f8ff;       /* Цвет фона (настраиваемый) */
+  border: 2px solid #4682b4;       /* Толщина, стиль и цвет рамки (настраиваемый) */
+  padding: 20px;                   /* Отступ внутри блока, чтобы текст не прилипал к краям */
+  margin: 20px;                    /* Отступ от других элементов (по желанию) */
+  border-radius: 8px;              /* Скругление углов (опционально) */
+  font-family: Arial, sans-serif;  /* Шрифт (по желанию) */
+  color: #333;                     /* Цвет текста */
+}
+
 @keyframes blink {
     0%, 50% { opacity: 1; }
     51%, 100% { opacity: 0; }
@@ -165,6 +175,7 @@ body {
     color: var(--matrix-bg);
     transform: scale(1.05);
     box-shadow: 0 0 20px var(--matrix-green);
+
 
 
 
