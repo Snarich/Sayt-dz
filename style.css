@@ -52,16 +52,6 @@ body {
     position: relative;
 }
 
-/* Эффект терминала */
-.content-section::before {
-    content: '>';
-    position: absolute;
-    top: 30px;
-    left: 10px;
-    color: var(--matrix-green);
-    font-size: 1.2em;
-    animation: blink 1s infinite;
-}
 
 .text-block {
   background-color: #1a1a1a;       /* Цвет фона (настраиваемый) */
@@ -175,6 +165,7 @@ body {
     color: var(--matrix-bg);
     transform: scale(1.05);
     box-shadow: 0 0 20px var(--matrix-green);
+
 
 
 
