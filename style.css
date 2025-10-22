@@ -112,7 +112,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-image: ('')
+    background-image: ('https://avatars.mds.yandex.net/i?id=97271397e7614f7e9e962719de549820570ad96b-7000993-images-thumbs&n=13')
 }
 
 /* Эффект свечения для текста */
@@ -175,6 +175,7 @@ body {
     color: var(--matrix-bg);
     transform: scale(1.05);
     box-shadow: 0 0 20px var(--matrix-green);
+
 
 
 
